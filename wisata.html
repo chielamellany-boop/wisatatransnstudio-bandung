@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata | Trans Studio Bandung</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff0f5;
+        }
+
+        header {
+            background: #ff69b4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255,105,180,0.2);
+        }
+
+        h2 {
+            color: #ff1493;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ffb6c1;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #ffc0cb;
+        }
+
+        footer {
+            background: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>Wisata Trans Studio Bandung</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#portfolio">Galeri</a></li>
+            <li><a href="#pricing">Harga</a></li>
+            <li><a href="#maps">Lokasi</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section id="about">
+        <h2>Tentang Trans Studio Bandung</h2>
+        <p>
+            Trans Studio Bandung adalah taman hiburan indoor terbesar di Indonesia
+            yang berlokasi di <strong>Jl. Gatot Subroto No.289, Bandung</strong>.
+        </p>
+        <mark>Wisata keluarga favorit dengan konsep modern.</mark>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Unggulan</h2>
+        <ul>
+            <li>Wahana ekstrem indoor</li>
+            <li>Permainan keluarga</li>
+            <li>Pertunjukan dan parade</li>
+            <li>Zona foto estetik</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="gallery">
+        <h2>Galeri</h2>
+
+        <img src="https://ik.imagekit.io/tvlk/blog/2020/01/Wisata-Keluarga-Bandung-5-Traveloka.jpeg" alt="Trans Studio Bandung">
+        <img src="https://asset.kompas.com/crops/cVwa1sDsIqosZD4j6ms0_gvb0V0=/0x0:1000x667/1200x800/data/photo/2023/03/16/6412c79e83de9.jpg" alt="Trans Studio Bandung">
+
+        <h3>Video</h3>
+        <video width="100%" controls>
+            <source src="./WhatsApp Video 2026-02-07 at 11.47.27.mp4" type="video/mp4">
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="./WhatsApp Audio 2026-02-05 at 18.15.24.mpeg" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section id="pricing">
+        <h2>Harga Tiket</h2>
+        <table>
+            <tr>
+                <th>Paket</th>
+                <th>Durasi</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>Reguler</td>
+                <td>Seharian</td>
+                <td>Rp 200.000</td>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>Seharian</td>
+                <td>Rp 350.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="maps">
+        <h2>Lokasi Trans Studio Bandung</h2>
+        <iframe
+            src="https://www.google.com/maps?q=Trans+Studio+Bandung&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius:12px;"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Wisata Bandung</p>
+    <p>
+        Email:
+        <a href="mailto:info@wisatabandung.com" style="color: #fff0f5;">
+            info@wisatabandung.com
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>
